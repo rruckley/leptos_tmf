@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Ryan Ruckley <rruckley@gmail.com>"]
 description = "Library to render TMF schema as forms"
-repository = ""
+repository = "https://github.com/rruckley/leptos_tmf"
 
 [dependencies]
 leptos = "0.6.14"
