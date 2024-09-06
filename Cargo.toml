@@ -1,0 +1,11 @@
+[package]
+name = "leptos_tmf"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ryan Ruckley <rruckley@gmail.com>"]
+description = "Library to render TMF schema as forms"
+repository = ""
+
+[dependencies]
+leptos = "0.6.14"
+tmflib = "0.1.20"
