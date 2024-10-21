@@ -6,9 +6,10 @@ use leptos::*;
 use tmflib::tmf666::AccountRef;
 
 #[component]
-pub fn account_ref(_item : AccountRef) -> impl IntoView {
-    let href = String::from("http://fake.com");
-    let name = String::from("FakeName");
+pub fn account_ref(item : AccountRef) -> impl IntoView {
+    let href = item.href;
+    let name = item.name;
+
     view!{
         <a href={href}>{name}</a>
     }
